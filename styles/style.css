@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "figtreelight";
+  src: url("../assets/fonts/figtree-variablefont_wght-webfont.eot");
+  src: url("../assets/fonts/figtree-variablefont_wght-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/figtree-variablefont_wght-webfont.woff2")
+      format("woff2"),
+    url("../assets/fonts/figtree-variablefont_wght-webfont.woff") format("woff"),
+    url("../assets/fonts/figtree-variablefont_wght-webfont.ttf")
+      format("truetype"),
+    url("../assets/fonts/figtree-variablefont_wght-webfont.svg#figtreelight")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "figtreelight", Courier, monospace;
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 2px solid #000;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  width: 370px;
+  box-shadow: 9px 9px 0px 0px #000;
+}
+
+img {
+  border-radius: 10px;
+}
+
+section > div:nth-child(2) > span {
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 900;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+section > div:nth-child(2) {
+  margin: 15px 0;
+}
+section > div:nth-child(3) {
+  margin: 0;
+}
+
+section > div:nth-child(3) > span,
+section > div:nth-child(3) > time {
+  font-size: 0.9rem;
+}
+
+section > div:nth-child(4) {
+  margin: 15px 0;
+}
+
+section > div:nth-child(4) > a {
+  font-weight: 900;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+section > div:nth-child(4) > a:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+section > div:nth-child(5) > p {
+  color: hsl(0, 0%, 50%);
+  font-size: 1.1rem;
+}
+
+section > div:nth-child(6) {
+  margin: 25px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+section > div:nth-child(6) > img {
+  width: 35px;
+}
+
+section > div:nth-child(6) > span {
+  margin: 0 0 0 15px;
+  font-weight: 900;
+}
